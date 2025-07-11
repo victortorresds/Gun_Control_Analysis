@@ -1,37 +1,37 @@
-# 🔫📉 Gun Control Analysis
+# 📉 Gun Control Analysis
 
-**👤 Author:** Victor Torres  
-**📅 Date:** October 2, 2024  
-**🛠️ Tool:** R & RMarkdown  
+** Author:** Victor Torres  
+** Date:** October 2, 2024  
+** Tool:** R & RMarkdown  
 
 ---
 
-## ❓ Objective
+## Objective
 
 This project explores whether **stricter firearm control laws** are associated with **lower firearm mortality rates** in the United States using public health data and gun law scores.
 
 ---
 
-## 🔍 Data Sources
+## Data Sources
 
-- 🧬 **CDC Firearm Mortality Rates**  
+-  **CDC Firearm Mortality Rates**  
   🔗 [CDC Mortality Data](https://www.cdc.gov/nchs/pressroom/sosmap/firearm_mortality/firearm.htm)  
   🔗 [CDC Open API](https://open.cdc.gov/apis.html)
 
-- 📜 **Gun Law Grades**  
+-  **Gun Law Grades**  
   Data scraped from the Law Center to Prevent Gun Violence Scorecard.
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
-1. 📥 Load and filter 2023 CDC firearm mortality data.
-2. 🗃️ Clean and convert gun law grades into a 5-point Likert scale:
+1.  Load and filter 2023 CDC firearm mortality data.
+2. Clean and convert gun law grades into a 5-point Likert scale:
    - `1 = Most Lax` 🔴
    - `5 = Most Strict` 🟢
-3. 🔗 Merge datasets by state.
-4. 🗺️ Create **heatmaps** and **scatterplots** to explore relationships.
-5. 📈 Perform visual trend analysis with linear regression.
+3.  Merge datasets by state.
+4. Create **heatmaps** and **scatterplots** to explore relationships.
+5. Perform visual trend analysis with linear regression.
 
 ---
 
@@ -44,11 +44,11 @@ This project explores whether **stricter firearm control laws** are associated w
 
 ### 🔥 Firearm Mortality Rate by State
 
-![Firearm Mortality Heatmap](images/firearm_mortality_heatmap.png)
+![Firearm Mortality Heatmap](https://github.com/victortorresds/Gun_Control_Analysis/blob/main/images/gun_control.png"?raw=true)
 
 ### 🛡️ Gun Law Strictness by State
 
-![Gun Law Strictness Heatmap](images/gun_law_strictness_heatmap.png)
+![Gun Law Strictness Heatmap](https://github.com/victortorresds/Gun_Control_Analysis/blob/main/images/gun_control_1.png"?raw=true)
 
 ### 📉 Gun Death Rate vs. Law Strictness (Linear Regression)
 
