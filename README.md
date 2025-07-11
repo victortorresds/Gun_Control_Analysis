@@ -48,7 +48,7 @@ This project explores whether **stricter firearm control laws** are associated w
 
 ### Gun Death Rate vs. Law Strictness (Linear Regression)
 
-![Gun Law vs Mortality Scatter] https://github.com/victortorresds/Gun_Control_Analysis/blob/main/images/gun_control_1.png"?raw=true
+![Gun Law vs Mortality Scatter] (https://github.com/victortorresds/Gun_Control_Analysis/blob/main/images/gun_control_1.png)
 
 ---
 
