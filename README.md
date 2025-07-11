@@ -1,8 +1,8 @@
 # 📉 Gun Control Analysis
 
-** Author:** Victor Torres  
-** Date:** October 2, 2024  
-** Tool:** R & RMarkdown  
+**Author:** Victor Torres  
+**Date:** October 2, 2024  
+**Tool:** R & RMarkdown  
 
 ---
 
@@ -42,28 +42,24 @@ This project explores whether **stricter firearm control laws** are associated w
 
 > To see the full analysis and interactive graphs, view the RMarkdown or HTML report.
 
-### 🔥 Firearm Mortality Rate by State
+### Firearm Mortality Rate by State
 
-![Firearm Mortality Heatmap](https://github.com/victortorresds/Gun_Control_Analysis/blob/main/images/gun_control.png"?raw=true)
+![Firearm Mortality Heatmap] https://github.com/victortorresds/Gun_Control_Analysis/blob/main/images/gun_control.png"?raw=true
 
-### 🛡️ Gun Law Strictness by State
+### Gun Death Rate vs. Law Strictness (Linear Regression)
 
-![Gun Law Strictness Heatmap](https://github.com/victortorresds/Gun_Control_Analysis/blob/main/images/gun_control_1.png"?raw=true)
-
-### 📉 Gun Death Rate vs. Law Strictness (Linear Regression)
-
-![Gun Law vs Mortality Scatter](images/gunlaw_vs_mortality_scatter.png)
+![Gun Law vs Mortality Scatter] https://github.com/victortorresds/Gun_Control_Analysis/blob/main/images/gun_control_1.png"?raw=true
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
-✅ **Yes, stricter firearm control laws are associated with lower firearm mortality.**  
+**Yes, stricter firearm control laws are associated with lower firearm mortality.**  
 States like **California**, **Connecticut**, and **New Jersey** (with strong laws) have lower gun death rates than states like **Alabama**, **Arizona**, and **Georgia** (with weaker laws).
 
 ---
 
-## 📦 R Libraries Used
+## R Libraries Used
 
 ```r
 library(tidyverse)
